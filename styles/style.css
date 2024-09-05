@@ -1,0 +1,49 @@
+#gameName{
+    text-align: center;
+    font-size:90px;
+    color: blue;
+}
+
+#grid{
+   width: 330px;
+   height: 330px;
+   margin: auto;
+   display: flex;
+   flex-wrap: wrap;
+   background-color: blue;
+}
+
+.cell{
+    width: 110px;
+    height: 110px;
+    border: solid 1px blue ;
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#winnerMessage{
+    text-align: center;
+    font-size:30px;
+    color: blue;
+}
+
+.circle{
+    height: 95px;
+    width: 95px;
+    background-color: white;
+    border: solid 12px blue ;
+    border-radius: 50%;
+    box-sizing: border-box ;
+    
+    
+    
+}
+
+.cross{
+    text-align: center;
+    font-size:120px;
+    color: red;
+}
